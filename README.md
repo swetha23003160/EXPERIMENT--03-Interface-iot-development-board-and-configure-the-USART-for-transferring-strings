@@ -6,7 +6,7 @@
 
 **ROLL NO: 212223040223**
 
-**DEPARTMENT: B.E(CSE)**
+**DEPARTMENT:B.E(CSE)**
 
 ## Aim:
 
@@ -91,11 +91,31 @@ UART transmits and receives data asynchronously, meaning there is no shared cloc
 
 ## STM 32 CUBE PROGRAM :
 ```
+/* USER CODE BEGIN Header */
+/**
+  ******************************************************************************
+  * @file           : main.c
+  * @brief          : Main program body
+  ******************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2026 STMicroelectronics.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
+  *
+  ******************************************************************************
+  */
+/* USER CODE END Header */
+/* Includes ------------------------------------------------------------------*/
 #include "main.h"
-#include"stdio.h"
+#include "stdio.h"
 #if defined(__GNUC__)
 #define PUTCHAR_PROTOTYPE int __io_putchar(int ch)
 #endif
+
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -176,10 +196,10 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-	  printf("Jayavarsha\n");
-	  	printf("212223040075\n");
-	  	HAL_Delay(500);
-
+	  printf("swetha M\n");
+	  printf("212223040223\n");
+	  printf("B.E CSE\n");
+	  HAL_Delay(500);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -334,13 +354,13 @@ void assert_failed(uint8_t *file, uint32_t line)
 }
 #endif /* USE_FULL_ASSERT */
 
-
 ```
+
 ## Output screen shots of Serial port utility   :
-
- <img width="1919" height="1019" alt="Screenshot 2026-02-19 165140" src="https://github.com/user-attachments/assets/941560fd-3866-4b16-9fdf-32ce06d77c93" />
-
  
+<img width="1919" height="1019" alt="Screenshot 2026-02-19 165140" src="https://github.com/user-attachments/assets/171c81d1-908f-47cf-9e02-2ab792fb6bb9" />
+
+
  
 ## Result :
 The IoT development board was successfully interfaced, and the USART was configured to transmit strings. The transmitted data was verified using a serial monitor, confirming proper communication.
